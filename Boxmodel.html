@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boxmodel</title>
+    <style type="text/css">
+        body{
+            font-family: Script;
+            font-size: 12px;
+        }
+        #main{
+            width: 1000px;
+            padding: 0;
+            margin-right: auto;
+            margin-left: auto;
+
+        }
+        #head{
+            font-family: Script;
+            height: 100px;
+            background-color: #111111;
+            border: 1px solid #cdcdcd;
+            margin-bottom: 0;
+            font-size: 40px;
+            text-align: center;
+            padding-top: 50px;
+        }
+        #head a{
+            color: lightpink;
+            text-decoration: none;
+        }
+
+        #left{
+            width: 150px;
+            min-height: 400px;
+            border: 1px solid #cdcdcd;
+            float: left;
+            background-color: lightpink;
+            margin-bottom: 5px;
+        }
+        #content{
+            width: 600px;
+            min-height: 400px;
+            border: 1px solid #cdcdcd;
+            float: left;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            font-size: 16px;
+            padding-bottom: 0px;
+        }
+        #right{
+            font-family: Script;
+            width: 234px;
+            min-height: 400px;
+            border: 1px solid #cdcdcd;
+            float: right;
+            margin-bottom: 5px;
+            font-size: 17px;
+            background-color: lightpink;
+        }
+
+        #right li a{
+            text-decoration: none;
+            color: #111111;
+        }
+        #footer{
+            height: 180px;
+            clear: both;
+            border: 1px solid #cdcdcd;
+            background-color: #f8f8f8;
+        }
+        a{
+            padding-top: 5px;
+            text-transform: uppercase ;
+            color: #0088dd;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="head">
+            <a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">Box Model</a>
+        </div>
+        <div id="left">
+            <img src="https://wallpaperaccess.com/full/1100776.jpg" width="152" height="402">
+        </div>
+        <div id="content">
+            <p>Các phần tử trong HTML có thể được coi là những chiếc hộp. Trong CSS, thuật ngữ “mô hình hộp” được dùng để nói về việc thiết kế, dàn layout.</p>
+            <br>
+            <p>Về cơ bản mô hình hộp CSS là một chiếc hộp bao xung quanh phần tử HTML, gồm lề, đường viền, padding và nội dung bên trong. Hình ảnh dưới đây cho thấy vị trí và mối liên hệ giữa các thành phần này.</p>
+            <img src="https://s3-ap-southeast-1.amazonaws.com/kipalog.com/k68zn5q971_image.png" width="600" height="220">
+        </div>
+        <div id="right">
+            <br><br>
+            <h2>Thành viên nhóm:</h2>
+            <ol>
+                <li><a href="https://www.facebook.com/binh.anhs.5" target="_blank">Lê Thanh Bình</a></li>
+                <br>
+                <li><a href="https://www.facebook.com/tien.tau.6290/" target="_blank">Mai Xuân Tiến</a></li>
+                <br>
+                <li><a href="https://www.facebook.com/duong.yt.97" target="_blank">Tống Minh Dương</a></li>
+                <br>
+                <li><a href="https://www.facebook.com/tiendeptrai.xyz" target="_blank">Nguyễn Văn Tiến</a></li>
+                <br>
+                <li><a href="https://www.facebook.com/profile.php?id=100016575673649" target="_blank">Vũ Duy Khánh</a></li>
+                <br>
+                <li><a href="https://www.facebook.com/profile.php?id=100070680884096" target="_blank">Trần Tuấn Vũ</a></li>
+            </ol>
+        </div>
+        <div id="footer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Blackpink_logo.svg/1024px-Blackpink_logo.svg.png" width="1000" height="180">
+        </div>
+    </div>
+</body>
+</html>
